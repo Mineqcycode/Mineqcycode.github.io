@@ -1,0 +1,22 @@
+.header {
+    grid-area: header;
+    height: auto;
+    width: 100%;
+    background-color: #151515;
+    display: flex;
+    font-size: larger;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #3e3e3e;
+}
+body {
+    /*将背景设置为black*/
+    background-color: black;
+    padding: 0;
+    margin:0;
+    color:#dadada;
+}
