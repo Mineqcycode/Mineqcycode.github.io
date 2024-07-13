@@ -10,7 +10,7 @@
     top: 0px;
     box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     border-bottom: 2px solid #3e3e3e;
 }
 body {
@@ -19,4 +19,47 @@ body {
     padding: 0;
     margin:0;
     color:#dadada;
+}
+.zhanwei {
+    width: 7px;
+    height:1px;
+}
+.topbutton {
+    background-color: #00000000; /* Green */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #292929;
+    width: 250px;
+}
+
+.dropdown-content button{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content button:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #240caa;
 }
