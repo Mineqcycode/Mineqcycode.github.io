@@ -12,17 +12,38 @@
     top: 7px;
     box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030
 }
+
+.topbutton {
+    background-color: #00000000;
+    border: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.topbutton:hover {
+    background-color: #00000020;
+}
 .mt {
     height: 25px;
     display: inline-block;
     padding: 12.5px;
 }
+
 .btnin {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 5px;
 }
+
 .main {
     grid-area: main;
 }
@@ -42,7 +63,7 @@
 .ima {
     padding: 0;
     margin: 0;
-    font-size:200%;
+    font-size: 200%;
 }
 
 .buttonm {
@@ -67,7 +88,16 @@
     background-color: #0085eb;
 }
 
+.grid-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding: 0px;
+}
 
-
-
-
+.grid-item {
+    background-color: #cef8ffcc;
+    padding: 20px;
+    border-radius: 9px;
+    background-image: url("attib.jpg.png");
+}
