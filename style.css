@@ -12,36 +12,17 @@
     top: 7px;
     box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030
 }
-
 .mt {
     height: 25px;
     display: inline-block;
     padding: 12.5px;
 }
-
-.btn {
-    height: 25px;
-    color: black;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    padding: 12.5px;
-    -webkit-transition-duration: 0.2s;
-    transition-duration: 0.2s;
-}
-
-.btn:hover {
-    background-color: #42b0ff;
-    background-image: linear-gradient(to right, #52b7ff, #0497ff);
-}
-
 .btnin {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 5px;
 }
-
 .main {
     grid-area: main;
 }
@@ -87,54 +68,6 @@
 }
 
 
-#cgb {
-    position: relative;
-    display: inline-block;
-}
 
-#mc {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 9px;
-    padding: 0;
-    margin: 0;
-    min-width: 220px;
-    box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
-}
 
-#cgb:hover #mc{
-    display: block;
-}
-.btn2 {
-    border-radius: 9px;
-    height: 15px;
-    color: black;
-    text-decoration: none;
-    text-align: left;
-    display: inline-block;
-    cursor: pointer;
-    padding: 0px;
-    -webkit-transition-duration: 0.2s;
-    transition-duration: 0.2s;
-    margin: 0;
-}
 
-.btn2:hover {
-    background-color: #e6e6e6;
-}
-.btn114 {
-    background-color: #00000000;
-    border: none;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    height: 50px;
-    font-size: larger;
-}
-.btn114:hover {
-    background-color: #00000030;
-}
-.btn-in {
-    float:none;
-}
